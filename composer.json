@@ -1,0 +1,30 @@
+{
+    "name": "composer/demo",
+    "description": "composer基础包",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "文豪",
+            "email": "840346763@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^7"
+    },
+    "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Demo\\": "src/"
+    }
+  }
+}
